@@ -1,0 +1,44 @@
+.ServicesContainer h1{
+    text-align: center;
+    margin:  12px;
+    margin-top: 15px;
+    font-size: 44px;
+}
+
+.card1{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 44%;
+    margin: 23px 40px;
+    
+    height: 250px;
+    
+}
+.card1 h3{
+    text-align: center;
+    margin:  12px;
+    margin-top: 15px;
+    font-size: 24px;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.card-img{
+    height: 150px;
+    padding: 0 14px;
+    margin: 5px 9px;
+}
+.card-img img{
+    height: inherit;
+}
+.card-content{
+    padding: 0 10px;
+
+}
+.card-content p{
+    font-size: 19px;
+}

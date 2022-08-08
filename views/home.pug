@@ -1,0 +1,49 @@
+extends base.pug 
+
+block scripts
+  script(src='/static/index.js')
+
+block style 
+    style
+        include ../static/style.css 
+
+block content 
+    
+    section#introSection 
+        div Welcome to RUSHI'S Dance Academay 
+        div.small Eat Sleep Dance Repeaat
+
+    section#missionSection   
+        h2 Our Mission 
+        div.card 
+            h3 Dance Perfection
+            div.card-box
+                div.card-img
+                    img(src="/static/images/pro3_11.jpg")
+                div.card-content 
+                    p To inspire growth and have a positive impact in dance education across the country, to help students grow in dance and in life.    
+        div.card 
+            h3 Dance the way you like
+            div.card-box
+                div.card-img
+                    img(src="/static/images/pro3_13.png")
+                div.card-content 
+                    p Our mission is to instill a great love of dance, while inspiring self-confidence, discipline and respect of the performing arts.
+        div.card 
+            h3 Expert Teaching
+            div.card-box
+                div.card-img
+                    img(src="/static/images/pro3_12.jpg")
+                div.card-content 
+                    p we have World class Dance expert.Nearly More than 120 types of dance Teaching.       
+
+    section#sponsorSection   
+        h2 Our Sponsors 
+        div#sponsors
+            img(src="/static/images/pro2-logo1.png",alt="Sponsor image",class="spImage")
+            img(src="/static/images/pro2-logo2.jpg",alt="Sponsor image",class="spImage")
+            img(src="/static/images/pro2-logo3.png",alt="Sponsor image",class="spImage")
+            img(src="/static/images/pro2-logo4.png",alt="Sponsor image",class="spImage")
+
+    script
+      include ../static/index.js
